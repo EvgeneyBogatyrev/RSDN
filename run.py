@@ -21,4 +21,5 @@ with open('/model/run.sh', 'w') as f:
     f.write('chmod -R 0777 /model/result\n')
 
 os.system('chmod 0777 /model/run.sh')
+os.system('chmod 0777 /model/list.txt')
 os.system('sh /model/run.sh')
