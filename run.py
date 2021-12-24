@@ -23,3 +23,4 @@ with open('/model/run.sh', 'w') as f:
 os.system('chmod 0777 /model/run.sh')
 os.system('chmod 0777 /model/list.txt')
 os.system('sh /model/run.sh')
+os.system("chmod 0777 /model -R")
